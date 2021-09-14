@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ypyjDElFSwqEMAw4aUuYgo5tWEEpDmLdcVfvpByOqDSnIrVIBZ3QRwZfjNT94YqcUp3nzcFhvQGraW1b2aoKew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Steve\\source\\Demo\\TechniNet\\ConsumeAPI\\ConsumeAPI\\ConsumeAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Steve\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

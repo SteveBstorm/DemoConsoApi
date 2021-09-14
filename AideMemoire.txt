@@ -1,0 +1,17 @@
+1) Utiliser un objet de type HttpClient
+	-> Créer la communication entre l'api et l'app consommante
+	-> doit connaitre l'url de l'api (BaseAdress)
+
+2) Récupérer un objet type HttpResponseMessage
+	-> fonction du verbe utilisé (get/post/put/delete)
+	
+	-> Contient Header(info serveur, info formatage content, ...)
+	   Content (contenu de la réponse http)
+	   - Body (Json / objet demandé à l'api) ?? (get)
+	   - StatusCode (200 Ok, 400 Bad Request, 401 Unauthorized,...)
+
+	-> Test si le status code correspond bien à un succès
+
+3) Convertir la réponse Json en objet c# (JsonConvert.DeserializeObject<Type>) (get)
+
+3') Convertir l'object c# en Json et l'intégrer au content de la requête (post)
